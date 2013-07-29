@@ -25,4 +25,4 @@ function wp_bootstrap_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'wp_bootstrap_scripts' );
 
-?>
+endif;
