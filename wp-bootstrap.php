@@ -24,3 +24,5 @@ function wp_bootstrap_scripts() {
 	wp_enqueue_script( 'less-js', get_template_directory_uri() . '/wp-bootstrap/js/less.min.js', array(), '1.4.1', true );
 }
 add_action( 'wp_enqueue_scripts', 'wp_bootstrap_scripts' );
+
+?>
