@@ -7,6 +7,8 @@ Version: 1.0.0
 
 Twitter Bootstrap Version: 3.0.0-rc1
 
+Author: Mattia Migliorini (deshack)
+
 Installation
 ------------
 
