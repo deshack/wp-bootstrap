@@ -1,6 +1,9 @@
 <?php
 /**
  * Include Twitter Bootstrap's styles and scripts
+ *
+ * @version 1.0.0
+ * @author Mattia Migliorini (deshack)
  */
 
 if( ! function_exists( 'wp_bootstrap_scripts' ) ) :
