@@ -3,7 +3,7 @@ wp-bootstrap
 
 Module intended to include Twitter Bootstrap with LESS into WordPress Themes.
 
-**Version:** 1.1.0
+**Version:** 2.0.0
 
 **Twitter Bootstrap Version:** 3.0.0-rc1
 
@@ -11,15 +11,7 @@ Module intended to include Twitter Bootstrap with LESS into WordPress Themes.
 
 **Donate:** http://www.deshack.net/donate/
 
-Installation
-------------
+Use
+---
 
-Simply download .zip file, extract it and place in your theme directory.
-
-_**Note:** you may need to rename this package folder to_ wp-bootstrap _if it's different._
-
-Then open your theme's functions.php file and add this line of code:
-
-    require get_template_directory() . '/wp-bootstrap/wp-bootstrap.php';
-
-
+Include this library in your theme's directory, import `less/bootstrap.less` in your own less file and start overriding.
