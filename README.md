@@ -3,9 +3,9 @@ wp-bootstrap
 
 Module intended to include Twitter Bootstrap with LESS into WordPress Themes.
 
-**Version:** 2.1.0
+**Version:** 2.2.0
 
-**Twitter Bootstrap Version:** 3.0.0-rc2
+**Twitter Bootstrap Version:** 3.0.0
 
 **Author:** Mattia Migliorini (deshack)
 
