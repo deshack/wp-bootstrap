@@ -38,3 +38,7 @@ Than update your ```wp_nav_menu()``` function to use the new walker:
 	) );
 ?>
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/deshack/wp-bootstrap/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
