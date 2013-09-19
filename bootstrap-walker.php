@@ -61,7 +61,7 @@ class Bootstrap_Walker extends Walker_Nav_Menu{
 			$class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) );
 			
 			if($args->has_children) {	$class_names .= ' dropdown'; }
-			if(in_array('current-menu-item', $classes)) { $class_names .= ' active'; }
+			if(in_array('current-menu-item', $classes) || in_array('current-menu-ancestor', $classes)) { $class_names .= ' active'; }
 
 			$class_names = $class_names ? ' class="' . esc_attr( $class_names ) . '"' : '';
 
