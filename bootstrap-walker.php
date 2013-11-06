@@ -100,6 +100,8 @@ class Bootstrap_Walker extends Walker_Nav_Menu{
 
 			if ( ! empty( $args->before ) )
 				$item_output = $args->before;
+			else
+				$item_output = '';
 
 			/*
 			 * Glyphicons
